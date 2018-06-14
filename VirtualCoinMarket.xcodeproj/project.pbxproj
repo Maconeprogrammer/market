@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B189A9220D0B86200F8A7A6 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B189A9120D0B86200F8A7A6 /* GraphView.m */; };
+		4B25BFCA20CDB62B00C8A064 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFC920CDB62B00C8A064 /* BaseViewController.m */; };
+		4B25BFCE20CDB69900C8A064 /* HomeListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFCD20CDB69900C8A064 /* HomeListCollectionViewCell.m */; };
+		4B25BFD520CE0CDB00C8A064 /* HomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFD420CE0CDB00C8A064 /* HomeTopView.m */; };
+		4B25BFD820CE0D8100C8A064 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFD720CE0D8100C8A064 /* WaterFlowLayout.m */; };
+		4B25BFDC20CE0EBC00C8A064 /* UICollectionView+IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFDB20CE0EBC00C8A064 /* UICollectionView+IndexPath.m */; };
+		4B25BFE020CE0FF400C8A064 /* HomeListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFDF20CE0FF400C8A064 /* HomeListModel.m */; };
+		4B25BFF220CE137E00C8A064 /* UIView+DKAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFE520CE137E00C8A064 /* UIView+DKAttribute.m */; };
+		4B25BFF320CE137E00C8A064 /* UILabel+DKAttribbute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFE620CE137E00C8A064 /* UILabel+DKAttribbute.m */; };
+		4B25BFF420CE137E00C8A064 /* UIColor+DK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFE720CE137E00C8A064 /* UIColor+DK.m */; };
+		4B25BFF520CE137E00C8A064 /* UIButton+DKAttribbute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFE820CE137E00C8A064 /* UIButton+DKAttribbute.m */; };
+		4B25BFF620CE137E00C8A064 /* UIImageView+DKAttribbute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFE920CE137E00C8A064 /* UIImageView+DKAttribbute.m */; };
+		4B25BFF720CE137E00C8A064 /* DKUIMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFEA20CE137E00C8A064 /* DKUIMaker.m */; };
+		4B25BFFD20CFA84000C8A064 /* DetailTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25BFFC20CFA84000C8A064 /* DetailTopView.m */; };
+		4B25BFFF20CFAA4700C8A064 /* Group 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B25BFFE20CFAA4700C8A064 /* Group 7.png */; };
+		4B25C00520CFE74C00C8A064 /* FeatureTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C00120CFE74B00C8A064 /* FeatureTools.m */; };
+		4B25C00920CFF1CF00C8A064 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C00820CFF1CF00C8A064 /* DetailTableViewCell.m */; };
+		4B25C00C20CFF75C00C8A064 /* DetailSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C00B20CFF75C00C8A064 /* DetailSectionView.m */; };
+		4B25C00F20CFF76A00C8A064 /* DetailFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C00E20CFF76A00C8A064 /* DetailFooterView.m */; };
+		4B25C01120D0021100C8A064 /* demoData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B25C01020D0021100C8A064 /* demoData.plist */; };
+		4B25C01920D00AB400C8A064 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C01420D00AB400C8A064 /* RootNavigationController.m */; };
+		4B25C01A20D00AB400C8A064 /* XYTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C01720D00AB400C8A064 /* XYTransition.m */; };
+		4B25C01D20D0107F00C8A064 /* HomeListCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C01C20D0107F00C8A064 /* HomeListCellContentView.m */; };
+		4B4BB1E420CC139900B26F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB1E320CC139900B26F4A /* AppDelegate.m */; };
+		4B4BB1EA20CC139900B26F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BB1E820CC139900B26F4A /* Main.storyboard */; };
+		4B4BB1EC20CC139A00B26F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BB1EB20CC139A00B26F4A /* Assets.xcassets */; };
+		4B4BB1EF20CC139A00B26F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BB1ED20CC139A00B26F4A /* LaunchScreen.storyboard */; };
+		4B4BB1F220CC139A00B26F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB1F120CC139A00B26F4A /* main.m */; };
+		4B4BB1FC20CC139A00B26F4A /* VirtualCoinMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB1FB20CC139A00B26F4A /* VirtualCoinMarketTests.m */; };
+		4B4BB20720CC139A00B26F4A /* VirtualCoinMarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB20620CC139A00B26F4A /* VirtualCoinMarketUITests.m */; };
+		4B4BB21820CC364100B26F4A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB21720CC364100B26F4A /* HomeViewController.m */; };
+		4B4BB21B20CC36AE00B26F4A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BB21A20CC36AE00B26F4A /* DetailViewController.m */; };
+		F7CEA88595A75CAC3F8D4902 /* libPods-VirtualCoinMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EF4696A1700DCA5CAD181E /* libPods-VirtualCoinMarket.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B4BB1F820CC139A00B26F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4BB1D720CC139900B26F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4BB1DE20CC139900B26F4A;
+			remoteInfo = VirtualCoinMarket;
+		};
+		4B4BB20320CC139A00B26F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4BB1D720CC139900B26F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4BB1DE20CC139900B26F4A;
+			remoteInfo = VirtualCoinMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B189A9020D0B86200F8A7A6 /* GraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		4B189A9120D0B86200F8A7A6 /* GraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		4B25BFC820CDB62B00C8A064 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4B25BFC920CDB62B00C8A064 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4B25BFCC20CDB69900C8A064 /* HomeListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListCollectionViewCell.h; sourceTree = "<group>"; };
+		4B25BFCD20CDB69900C8A064 /* HomeListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListCollectionViewCell.m; sourceTree = "<group>"; };
+		4B25BFCF20CDB75300C8A064 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4B25BFD320CE0CDB00C8A064 /* HomeTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTopView.h; sourceTree = "<group>"; };
+		4B25BFD420CE0CDB00C8A064 /* HomeTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTopView.m; sourceTree = "<group>"; };
+		4B25BFD620CE0D8100C8A064 /* WaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		4B25BFD720CE0D8100C8A064 /* WaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		4B25BFDA20CE0EBC00C8A064 /* UICollectionView+IndexPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+IndexPath.h"; sourceTree = "<group>"; };
+		4B25BFDB20CE0EBC00C8A064 /* UICollectionView+IndexPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+IndexPath.m"; sourceTree = "<group>"; };
+		4B25BFDE20CE0FF400C8A064 /* HomeListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListModel.h; sourceTree = "<group>"; };
+		4B25BFDF20CE0FF400C8A064 /* HomeListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListModel.m; sourceTree = "<group>"; };
+		4B25BFE520CE137E00C8A064 /* UIView+DKAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DKAttribute.m"; sourceTree = "<group>"; };
+		4B25BFE620CE137E00C8A064 /* UILabel+DKAttribbute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DKAttribbute.m"; sourceTree = "<group>"; };
+		4B25BFE720CE137E00C8A064 /* UIColor+DK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DK.m"; sourceTree = "<group>"; };
+		4B25BFE820CE137E00C8A064 /* UIButton+DKAttribbute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DKAttribbute.m"; sourceTree = "<group>"; };
+		4B25BFE920CE137E00C8A064 /* UIImageView+DKAttribbute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DKAttribbute.m"; sourceTree = "<group>"; };
+		4B25BFEA20CE137E00C8A064 /* DKUIMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKUIMaker.m; sourceTree = "<group>"; };
+		4B25BFEB20CE137E00C8A064 /* UILabel+DKAttribbute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DKAttribbute.h"; sourceTree = "<group>"; };
+		4B25BFEC20CE137E00C8A064 /* UIView+DKAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DKAttribute.h"; sourceTree = "<group>"; };
+		4B25BFED20CE137E00C8A064 /* DKUIHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUIHeader.h; sourceTree = "<group>"; };
+		4B25BFEE20CE137E00C8A064 /* UIColor+DK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DK.h"; sourceTree = "<group>"; };
+		4B25BFEF20CE137E00C8A064 /* DKUIMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKUIMaker.h; sourceTree = "<group>"; };
+		4B25BFF020CE137E00C8A064 /* UIImageView+DKAttribbute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DKAttribbute.h"; sourceTree = "<group>"; };
+		4B25BFF120CE137E00C8A064 /* UIButton+DKAttribbute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DKAttribbute.h"; sourceTree = "<group>"; };
+		4B25BFFB20CFA84000C8A064 /* DetailTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTopView.h; sourceTree = "<group>"; };
+		4B25BFFC20CFA84000C8A064 /* DetailTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTopView.m; sourceTree = "<group>"; };
+		4B25BFFE20CFAA4700C8A064 /* Group 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 7.png"; sourceTree = "<group>"; };
+		4B25C00120CFE74B00C8A064 /* FeatureTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureTools.m; sourceTree = "<group>"; };
+		4B25C00420CFE74C00C8A064 /* FeatureTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeatureTools.h; sourceTree = "<group>"; };
+		4B25C00720CFF1CF00C8A064 /* DetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		4B25C00820CFF1CF00C8A064 /* DetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		4B25C00A20CFF75C00C8A064 /* DetailSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailSectionView.h; sourceTree = "<group>"; };
+		4B25C00B20CFF75C00C8A064 /* DetailSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailSectionView.m; sourceTree = "<group>"; };
+		4B25C00D20CFF76A00C8A064 /* DetailFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailFooterView.h; sourceTree = "<group>"; };
+		4B25C00E20CFF76A00C8A064 /* DetailFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailFooterView.m; sourceTree = "<group>"; };
+		4B25C01020D0021100C8A064 /* demoData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = demoData.plist; sourceTree = "<group>"; };
+		4B25C01320D00AB400C8A064 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		4B25C01420D00AB400C8A064 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		4B25C01620D00AB400C8A064 /* XYTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransition.h; sourceTree = "<group>"; };
+		4B25C01720D00AB400C8A064 /* XYTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTransition.m; sourceTree = "<group>"; };
+		4B25C01820D00AB400C8A064 /* XYTransitionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTransitionProtocol.h; sourceTree = "<group>"; };
+		4B25C01B20D0107F00C8A064 /* HomeListCellContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListCellContentView.h; sourceTree = "<group>"; };
+		4B25C01C20D0107F00C8A064 /* HomeListCellContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListCellContentView.m; sourceTree = "<group>"; };
+		4B4BB1DF20CC139900B26F4A /* VirtualCoinMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualCoinMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4BB1E220CC139900B26F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B4BB1E320CC139900B26F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B4BB1E920CC139900B26F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B4BB1EB20CC139A00B26F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B4BB1EE20CC139A00B26F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B4BB1F020CC139A00B26F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4BB1F120CC139A00B26F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4BB1F720CC139A00B26F4A /* VirtualCoinMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCoinMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4BB1FB20CC139A00B26F4A /* VirtualCoinMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualCoinMarketTests.m; sourceTree = "<group>"; };
+		4B4BB1FD20CC139A00B26F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4BB20220CC139A00B26F4A /* VirtualCoinMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCoinMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4BB20620CC139A00B26F4A /* VirtualCoinMarketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualCoinMarketUITests.m; sourceTree = "<group>"; };
+		4B4BB20820CC139A00B26F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4BB21620CC364100B26F4A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4B4BB21720CC364100B26F4A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4B4BB21920CC36AE00B26F4A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4B4BB21A20CC36AE00B26F4A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		72EF4696A1700DCA5CAD181E /* libPods-VirtualCoinMarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VirtualCoinMarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98297496C6F5D2D0BFCD6071 /* Pods-VirtualCoinMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualCoinMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualCoinMarket/Pods-VirtualCoinMarket.release.xcconfig"; sourceTree = "<group>"; };
+		FDAA3B7DBAA3D62A4B938989 /* Pods-VirtualCoinMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualCoinMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualCoinMarket/Pods-VirtualCoinMarket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4BB1DC20CC139900B26F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CEA88595A75CAC3F8D4902 /* libPods-VirtualCoinMarket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB1F420CC139A00B26F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB1FF20CC139A00B26F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B189A8F20D0B84700F8A7A6 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				4B189A9020D0B86200F8A7A6 /* GraphView.h */,
+				4B189A9120D0B86200F8A7A6 /* GraphView.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		4B25BFC720CDB62000C8A064 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4B25C01220D00A8D00C8A064 /* TransformAmator */,
+				4B25BFC820CDB62B00C8A064 /* BaseViewController.h */,
+				4B25BFC920CDB62B00C8A064 /* BaseViewController.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		4B25BFCB20CDB68A00C8A064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B25BFCC20CDB69900C8A064 /* HomeListCollectionViewCell.h */,
+				4B25BFCD20CDB69900C8A064 /* HomeListCollectionViewCell.m */,
+				4B25BFD620CE0D8100C8A064 /* WaterFlowLayout.h */,
+				4B25BFD720CE0D8100C8A064 /* WaterFlowLayout.m */,
+				4B25BFD320CE0CDB00C8A064 /* HomeTopView.h */,
+				4B25BFD420CE0CDB00C8A064 /* HomeTopView.m */,
+				4B25BFFB20CFA84000C8A064 /* DetailTopView.h */,
+				4B25BFFC20CFA84000C8A064 /* DetailTopView.m */,
+				4B25C00720CFF1CF00C8A064 /* DetailTableViewCell.h */,
+				4B25C00820CFF1CF00C8A064 /* DetailTableViewCell.m */,
+				4B25C00A20CFF75C00C8A064 /* DetailSectionView.h */,
+				4B25C00B20CFF75C00C8A064 /* DetailSectionView.m */,
+				4B25C00D20CFF76A00C8A064 /* DetailFooterView.h */,
+				4B25C00E20CFF76A00C8A064 /* DetailFooterView.m */,
+				4B25C01B20D0107F00C8A064 /* HomeListCellContentView.h */,
+				4B25C01C20D0107F00C8A064 /* HomeListCellContentView.m */,
+				4B25BFFE20CFAA4700C8A064 /* Group 7.png */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B25BFD920CE0EA200C8A064 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4B25BFE420CE137E00C8A064 /* DKUI */,
+				4B25BFDA20CE0EBC00C8A064 /* UICollectionView+IndexPath.h */,
+				4B25BFDB20CE0EBC00C8A064 /* UICollectionView+IndexPath.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4B25BFDD20CE0FD100C8A064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B25BFDE20CE0FF400C8A064 /* HomeListModel.h */,
+				4B25BFDF20CE0FF400C8A064 /* HomeListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B25BFE420CE137E00C8A064 /* DKUI */ = {
+			isa = PBXGroup;
+			children = (
+				4B25BFED20CE137E00C8A064 /* DKUIHeader.h */,
+				4B25BFEC20CE137E00C8A064 /* UIView+DKAttribute.h */,
+				4B25BFE520CE137E00C8A064 /* UIView+DKAttribute.m */,
+				4B25BFEB20CE137E00C8A064 /* UILabel+DKAttribbute.h */,
+				4B25BFE620CE137E00C8A064 /* UILabel+DKAttribbute.m */,
+				4B25BFEE20CE137E00C8A064 /* UIColor+DK.h */,
+				4B25BFE720CE137E00C8A064 /* UIColor+DK.m */,
+				4B25BFF120CE137E00C8A064 /* UIButton+DKAttribbute.h */,
+				4B25BFE820CE137E00C8A064 /* UIButton+DKAttribbute.m */,
+				4B25BFF020CE137E00C8A064 /* UIImageView+DKAttribbute.h */,
+				4B25BFE920CE137E00C8A064 /* UIImageView+DKAttribbute.m */,
+				4B25BFEF20CE137E00C8A064 /* DKUIMaker.h */,
+				4B25BFEA20CE137E00C8A064 /* DKUIMaker.m */,
+			);
+			path = DKUI;
+			sourceTree = "<group>";
+		};
+		4B25C00020CFE71C00C8A064 /* AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				4B25C00420CFE74C00C8A064 /* FeatureTools.h */,
+				4B25C00120CFE74B00C8A064 /* FeatureTools.m */,
+			);
+			path = AppTools;
+			sourceTree = "<group>";
+		};
+		4B25C01220D00A8D00C8A064 /* TransformAmator */ = {
+			isa = PBXGroup;
+			children = (
+				4B25C01320D00AB400C8A064 /* RootNavigationController.h */,
+				4B25C01420D00AB400C8A064 /* RootNavigationController.m */,
+				4B25C01520D00AB400C8A064 /* XYTransition */,
+			);
+			path = TransformAmator;
+			sourceTree = "<group>";
+		};
+		4B25C01520D00AB400C8A064 /* XYTransition */ = {
+			isa = PBXGroup;
+			children = (
+				4B25C01620D00AB400C8A064 /* XYTransition.h */,
+				4B25C01720D00AB400C8A064 /* XYTransition.m */,
+				4B25C01820D00AB400C8A064 /* XYTransitionProtocol.h */,
+			);
+			path = XYTransition;
+			sourceTree = "<group>";
+		};
+		4B4BB1D620CC139800B26F4A = {
+			isa = PBXGroup;
+			children = (
+				4B4BB1E120CC139900B26F4A /* VirtualCoinMarket */,
+				4B4BB1FA20CC139A00B26F4A /* VirtualCoinMarketTests */,
+				4B4BB20520CC139A00B26F4A /* VirtualCoinMarketUITests */,
+				4B4BB1E020CC139900B26F4A /* Products */,
+				97DBCE411828C872AD16D851 /* Pods */,
+				D8F9C062C8524C2B1A5703AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4BB1E020CC139900B26F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BB1DF20CC139900B26F4A /* VirtualCoinMarket.app */,
+				4B4BB1F720CC139A00B26F4A /* VirtualCoinMarketTests.xctest */,
+				4B4BB20220CC139A00B26F4A /* VirtualCoinMarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4BB1E120CC139900B26F4A /* VirtualCoinMarket */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BB1E220CC139900B26F4A /* AppDelegate.h */,
+				4B4BB1E320CC139900B26F4A /* AppDelegate.m */,
+				4B189A8F20D0B84700F8A7A6 /* CommonView */,
+				4B25C00020CFE71C00C8A064 /* AppTools */,
+				4B25BFD920CE0EA200C8A064 /* Category */,
+				4B25BFC720CDB62000C8A064 /* Config */,
+				4B4BB21420CC361100B26F4A /* MainModule */,
+				4B4BB1E820CC139900B26F4A /* Main.storyboard */,
+				4B4BB1EB20CC139A00B26F4A /* Assets.xcassets */,
+				4B4BB1ED20CC139A00B26F4A /* LaunchScreen.storyboard */,
+				4B4BB1F020CC139A00B26F4A /* Info.plist */,
+				4B25BFCF20CDB75300C8A064 /* PrefixHeader.pch */,
+				4B4BB1F120CC139A00B26F4A /* main.m */,
+				4B25C01020D0021100C8A064 /* demoData.plist */,
+			);
+			path = VirtualCoinMarket;
+			sourceTree = "<group>";
+		};
+		4B4BB1FA20CC139A00B26F4A /* VirtualCoinMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BB1FB20CC139A00B26F4A /* VirtualCoinMarketTests.m */,
+				4B4BB1FD20CC139A00B26F4A /* Info.plist */,
+			);
+			path = VirtualCoinMarketTests;
+			sourceTree = "<group>";
+		};
+		4B4BB20520CC139A00B26F4A /* VirtualCoinMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BB20620CC139A00B26F4A /* VirtualCoinMarketUITests.m */,
+				4B4BB20820CC139A00B26F4A /* Info.plist */,
+			);
+			path = VirtualCoinMarketUITests;
+			sourceTree = "<group>";
+		};
+		4B4BB21420CC361100B26F4A /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				4B4BB21520CC362D00B26F4A /* Home_主页 */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		4B4BB21520CC362D00B26F4A /* Home_主页 */ = {
+			isa = PBXGroup;
+			children = (
+				4B25BFDD20CE0FD100C8A064 /* Model */,
+				4B25BFCB20CDB68A00C8A064 /* View */,
+				4B4BB21620CC364100B26F4A /* HomeViewController.h */,
+				4B4BB21720CC364100B26F4A /* HomeViewController.m */,
+				4B4BB21920CC36AE00B26F4A /* DetailViewController.h */,
+				4B4BB21A20CC36AE00B26F4A /* DetailViewController.m */,
+			);
+			path = "Home_主页";
+			sourceTree = "<group>";
+		};
+		97DBCE411828C872AD16D851 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDAA3B7DBAA3D62A4B938989 /* Pods-VirtualCoinMarket.debug.xcconfig */,
+				98297496C6F5D2D0BFCD6071 /* Pods-VirtualCoinMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8F9C062C8524C2B1A5703AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72EF4696A1700DCA5CAD181E /* libPods-VirtualCoinMarket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4BB1DE20CC139900B26F4A /* VirtualCoinMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4BB20B20CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarket" */;
+			buildPhases = (
+				421C22940DB1FBCB2D12187F /* [CP] Check Pods Manifest.lock */,
+				4B4BB1DB20CC139900B26F4A /* Sources */,
+				4B4BB1DC20CC139900B26F4A /* Frameworks */,
+				4B4BB1DD20CC139900B26F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualCoinMarket;
+			productName = VirtualCoinMarket;
+			productReference = 4B4BB1DF20CC139900B26F4A /* VirtualCoinMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B4BB1F620CC139A00B26F4A /* VirtualCoinMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4BB20E20CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarketTests" */;
+			buildPhases = (
+				4B4BB1F320CC139A00B26F4A /* Sources */,
+				4B4BB1F420CC139A00B26F4A /* Frameworks */,
+				4B4BB1F520CC139A00B26F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4BB1F920CC139A00B26F4A /* PBXTargetDependency */,
+			);
+			name = VirtualCoinMarketTests;
+			productName = VirtualCoinMarketTests;
+			productReference = 4B4BB1F720CC139A00B26F4A /* VirtualCoinMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B4BB20120CC139A00B26F4A /* VirtualCoinMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4BB21120CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarketUITests" */;
+			buildPhases = (
+				4B4BB1FE20CC139A00B26F4A /* Sources */,
+				4B4BB1FF20CC139A00B26F4A /* Frameworks */,
+				4B4BB20020CC139A00B26F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4BB20420CC139A00B26F4A /* PBXTargetDependency */,
+			);
+			name = VirtualCoinMarketUITests;
+			productName = VirtualCoinMarketUITests;
+			productReference = 4B4BB20220CC139A00B26F4A /* VirtualCoinMarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4BB1D720CC139900B26F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SleepWalker;
+				TargetAttributes = {
+					4B4BB1DE20CC139900B26F4A = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4B4BB1F620CC139A00B26F4A = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4B4BB1DE20CC139900B26F4A;
+					};
+					4B4BB20120CC139A00B26F4A = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4B4BB1DE20CC139900B26F4A;
+					};
+				};
+			};
+			buildConfigurationList = 4B4BB1DA20CC139900B26F4A /* Build configuration list for PBXProject "VirtualCoinMarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B4BB1D620CC139800B26F4A;
+			productRefGroup = 4B4BB1E020CC139900B26F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4BB1DE20CC139900B26F4A /* VirtualCoinMarket */,
+				4B4BB1F620CC139A00B26F4A /* VirtualCoinMarketTests */,
+				4B4BB20120CC139A00B26F4A /* VirtualCoinMarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4BB1DD20CC139900B26F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4BB1EF20CC139A00B26F4A /* LaunchScreen.storyboard in Resources */,
+				4B4BB1EC20CC139A00B26F4A /* Assets.xcassets in Resources */,
+				4B25BFFF20CFAA4700C8A064 /* Group 7.png in Resources */,
+				4B4BB1EA20CC139900B26F4A /* Main.storyboard in Resources */,
+				4B25C01120D0021100C8A064 /* demoData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB1F520CC139A00B26F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB20020CC139A00B26F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421C22940DB1FBCB2D12187F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtualCoinMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4BB1DB20CC139900B26F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4BB1F220CC139A00B26F4A /* main.m in Sources */,
+				4B189A9220D0B86200F8A7A6 /* GraphView.m in Sources */,
+				4B25BFF620CE137E00C8A064 /* UIImageView+DKAttribbute.m in Sources */,
+				4B25BFCA20CDB62B00C8A064 /* BaseViewController.m in Sources */,
+				4B4BB1E420CC139900B26F4A /* AppDelegate.m in Sources */,
+				4B25BFF720CE137E00C8A064 /* DKUIMaker.m in Sources */,
+				4B25C01920D00AB400C8A064 /* RootNavigationController.m in Sources */,
+				4B25BFD520CE0CDB00C8A064 /* HomeTopView.m in Sources */,
+				4B25BFE020CE0FF400C8A064 /* HomeListModel.m in Sources */,
+				4B25BFF420CE137E00C8A064 /* UIColor+DK.m in Sources */,
+				4B25C00520CFE74C00C8A064 /* FeatureTools.m in Sources */,
+				4B25C01A20D00AB400C8A064 /* XYTransition.m in Sources */,
+				4B25BFF220CE137E00C8A064 /* UIView+DKAttribute.m in Sources */,
+				4B25BFCE20CDB69900C8A064 /* HomeListCollectionViewCell.m in Sources */,
+				4B25C00F20CFF76A00C8A064 /* DetailFooterView.m in Sources */,
+				4B25BFD820CE0D8100C8A064 /* WaterFlowLayout.m in Sources */,
+				4B25C01D20D0107F00C8A064 /* HomeListCellContentView.m in Sources */,
+				4B25BFF320CE137E00C8A064 /* UILabel+DKAttribbute.m in Sources */,
+				4B25C00920CFF1CF00C8A064 /* DetailTableViewCell.m in Sources */,
+				4B4BB21820CC364100B26F4A /* HomeViewController.m in Sources */,
+				4B25BFF520CE137E00C8A064 /* UIButton+DKAttribbute.m in Sources */,
+				4B25BFFD20CFA84000C8A064 /* DetailTopView.m in Sources */,
+				4B25C00C20CFF75C00C8A064 /* DetailSectionView.m in Sources */,
+				4B25BFDC20CE0EBC00C8A064 /* UICollectionView+IndexPath.m in Sources */,
+				4B4BB21B20CC36AE00B26F4A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB1F320CC139A00B26F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4BB1FC20CC139A00B26F4A /* VirtualCoinMarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4BB1FE20CC139A00B26F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4BB20720CC139A00B26F4A /* VirtualCoinMarketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B4BB1F920CC139A00B26F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4BB1DE20CC139900B26F4A /* VirtualCoinMarket */;
+			targetProxy = 4B4BB1F820CC139A00B26F4A /* PBXContainerItemProxy */;
+		};
+		4B4BB20420CC139A00B26F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4BB1DE20CC139900B26F4A /* VirtualCoinMarket */;
+			targetProxy = 4B4BB20320CC139A00B26F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B4BB1E820CC139900B26F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4BB1E920CC139900B26F4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B4BB1ED20CC139A00B26F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4BB1EE20CC139A00B26F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4BB20920CC139A00B26F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B4BB20A20CC139A00B26F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4BB20C20CC139A00B26F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAA3B7DBAA3D62A4B938989 /* Pods-VirtualCoinMarket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QM6F2UKEUU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VirtualCoinMarket/PrefixHeader.pch";
+				INFOPLIST_FILE = VirtualCoinMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.market.his;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4BB20D20CC139A00B26F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98297496C6F5D2D0BFCD6071 /* Pods-VirtualCoinMarket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QM6F2UKEUU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VirtualCoinMarket/PrefixHeader.pch";
+				INFOPLIST_FILE = VirtualCoinMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.market.his;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B4BB20F20CC139A00B26F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNWT2V696F;
+				INFOPLIST_FILE = VirtualCoinMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sleepwalker.VirtualCoinMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCoinMarket.app/VirtualCoinMarket";
+			};
+			name = Debug;
+		};
+		4B4BB21020CC139A00B26F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNWT2V696F;
+				INFOPLIST_FILE = VirtualCoinMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sleepwalker.VirtualCoinMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCoinMarket.app/VirtualCoinMarket";
+			};
+			name = Release;
+		};
+		4B4BB21220CC139A00B26F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNWT2V696F;
+				INFOPLIST_FILE = VirtualCoinMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sleepwalker.VirtualCoinMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCoinMarket;
+			};
+			name = Debug;
+		};
+		4B4BB21320CC139A00B26F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XNWT2V696F;
+				INFOPLIST_FILE = VirtualCoinMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sleepwalker.VirtualCoinMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCoinMarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4BB1DA20CC139900B26F4A /* Build configuration list for PBXProject "VirtualCoinMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4BB20920CC139A00B26F4A /* Debug */,
+				4B4BB20A20CC139A00B26F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4BB20B20CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4BB20C20CC139A00B26F4A /* Debug */,
+				4B4BB20D20CC139A00B26F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4BB20E20CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4BB20F20CC139A00B26F4A /* Debug */,
+				4B4BB21020CC139A00B26F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4BB21120CC139A00B26F4A /* Build configuration list for PBXNativeTarget "VirtualCoinMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4BB21220CC139A00B26F4A /* Debug */,
+				4B4BB21320CC139A00B26F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4BB1D720CC139900B26F4A /* Project object */;
+}
